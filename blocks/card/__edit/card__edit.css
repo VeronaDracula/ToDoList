@@ -1,0 +1,14 @@
+.card__edit {
+    background: transparent center no-repeat url("../../../images/edit.png");
+    background-size: auto;
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin-right: 10px;
+
+}
+
+.card__edit:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}

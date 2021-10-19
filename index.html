@@ -4,19 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
-    <title>ToDoList</title>
+    <title>Task List</title>
 </head>
 <body>
 <div class="page">
-    <header class="header">
+    <div class="page__container">
+        <header class="header">
+            <img class="header__logo" src="./images/logo.svg" alt="логотип">
+            <button class="header__btn-login" type="button"></button>
+        </header>
+        <main class="content">
+            <section class="add-task">
+                <div class="date">
+                    <p class="date__text">Сегодня</p>
+                    <p class="date__number">19.10.2021</p>
+                </div>
+                <button class="add-task__button" type="button"></button>
+            </section>
 
-    </header>
-    <main class="content">
+            <section class="events">
+                <ul class="cards">
+                    <li class="card">
+                        <p class="card__text">учитьсяhggggvvvvnffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</p>
+                        <div class="card__buttons">
+                            <button class="card__edit" type="button"></button>
+                            <button class="card__delete" type="button"></button>
+                        </div>
+                    </li>
+                    <li class="card">
+                        <p class="card__text">учиться</p>
+                        <div class="card__buttons">
+                            <button class="card__edit" type="button"></button>
+                            <button class="card__delete" type="button"></button>
+                        </div>
+                    </li>
+                    <li class="card">
+                        <p class="card__text">учиться</p>
+                        <div class="card__buttons">
+                            <button class="card__edit" type="button"></button>
+                            <button class="card__delete" type="button"></button>
+                        </div>
+                    </li>
+                </ul>
+            </section>
 
-    </main>
-    <footer class="footer">
+        </main>
+        <footer class="footer">
+            <p class="footer__copyright">&copy; 2021 Task List</p>
+        </footer>
 
-    </footer>
+    </div>
 </div>
 </body>
 </html>
